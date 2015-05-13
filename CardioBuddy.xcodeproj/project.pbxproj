@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A20839711AF522B200BD451D /* HTTPHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20839701AF522B200BD451D /* HTTPHelper.swift */; };
+		A20839751AF527FA00BD451D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20839741AF527FA00BD451D /* Constants.swift */; };
+		A20E12621ABC7F8D00609FBC /* TitleOfTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20E12611ABC7F8D00609FBC /* TitleOfTableView.swift */; };
+		A2170F191ABC98AE0080CA63 /* WorkoutList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2170F181ABC98AE0080CA63 /* WorkoutList.swift */; };
+		A2170F1B1ABCF3D60080CA63 /* PastWorkoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2170F1A1ABCF3D60080CA63 /* PastWorkoutViewController.swift */; };
+		A230ED7E1B02E37600A4EE3E /* TestStringCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = A230ED7D1B02E37600A4EE3E /* TestStringCheck.swift */; };
+		A230ED801B02E6D100A4EE3E /* TestStringToInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = A230ED7F1B02E6D100A4EE3E /* TestStringToInt.swift */; };
+		A230ED821B02E87E00A4EE3E /* TestValuesArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = A230ED811B02E87E00A4EE3E /* TestValuesArray.swift */; };
+		A255CFC81B02A5FD009382AB /* ParseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A255CFC71B02A5FD009382AB /* ParseHelper.swift */; };
+		A255CFCE1B02A73E009382AB /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A255CFCD1B02A73E009382AB /* AudioToolbox.framework */; };
+		A255CFD01B02A745009382AB /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A255CFCF1B02A745009382AB /* CFNetwork.framework */; };
+		A255CFD21B02A749009382AB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A255CFD11B02A749009382AB /* CoreGraphics.framework */; };
+		A255CFD41B02A74E009382AB /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A255CFD31B02A74E009382AB /* CoreLocation.framework */; };
+		A255CFD61B02A756009382AB /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A255CFD51B02A756009382AB /* MobileCoreServices.framework */; };
+		A255CFD81B02A75C009382AB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A255CFD71B02A75C009382AB /* QuartzCore.framework */; };
+		A255CFDA1B02A762009382AB /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A255CFD91B02A762009382AB /* Security.framework */; };
+		A255CFDC1B02A769009382AB /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A255CFDB1B02A769009382AB /* StoreKit.framework */; };
+		A255CFDE1B02A771009382AB /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A255CFDD1B02A771009382AB /* SystemConfiguration.framework */; };
+		A255CFE01B02A777009382AB /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A255CFDF1B02A777009382AB /* libz.dylib */; };
+		A255CFE21B02A77F009382AB /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A255CFE11B02A77F009382AB /* libsqlite3.dylib */; };
+		A255CFE41B02A8B1009382AB /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A255CFE31B02A8B1009382AB /* Accounts.framework */; };
+		A255CFE61B02A8B6009382AB /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A255CFE51B02A8B6009382AB /* Social.framework */; };
+		A255CFEA1B02A9C5009382AB /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A255CFE91B02A9C5009382AB /* Bolts.framework */; };
+		A255CFEB1B02A9C5009382AB /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A255CFE91B02A9C5009382AB /* Bolts.framework */; };
+		A255CFED1B02A9DF009382AB /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A255CFEC1B02A9DF009382AB /* Parse.framework */; };
+		A255CFEE1B02A9DF009382AB /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A255CFEC1B02A9DF009382AB /* Parse.framework */; };
+		A255CFEF1B02B1B5009382AB /* ParseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A255CFC71B02A5FD009382AB /* ParseHelper.swift */; };
+		A29E98751AB91316005535ED /* DataTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29E98741AB91316005535ED /* DataTableView.swift */; };
+		A2C7057C1AAFFC0100530C0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C7057B1AAFFC0100530C0A /* AppDelegate.swift */; };
+		A2C7057E1AAFFC0100530C0A /* AveragesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C7057D1AAFFC0100530C0A /* AveragesViewController.swift */; };
+		A2C705801AAFFC0100530C0A /* NewWorkoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C7057F1AAFFC0100530C0A /* NewWorkoutViewController.swift */; };
+		A2C705831AAFFC0100530C0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2C705811AAFFC0100530C0A /* Main.storyboard */; };
+		A2C705851AAFFC0100530C0A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2C705841AAFFC0100530C0A /* Images.xcassets */; };
+		A2C705881AAFFC0100530C0A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2C705861AAFFC0100530C0A /* LaunchScreen.xib */; };
+		A2C705941AAFFC0100530C0A /* CardioBuddyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C705931AAFFC0100530C0A /* CardioBuddyTests.swift */; };
+		A2C7C6661AF9943B003B97F2 /* WorkoutList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2170F181ABC98AE0080CA63 /* WorkoutList.swift */; };
+		A2C7C6671AF99525003B97F2 /* AveragesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C7057D1AAFFC0100530C0A /* AveragesViewController.swift */; };
+		A2C7C6681AF99527003B97F2 /* NewWorkoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C7057F1AAFFC0100530C0A /* NewWorkoutViewController.swift */; };
+		A2C7C6691AF99529003B97F2 /* WorkoutListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F42B5C1AB7B77C00E23553 /* WorkoutListViewController.swift */; };
+		A2C7C66A1AF9952B003B97F2 /* PastWorkoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2170F1A1ABCF3D60080CA63 /* PastWorkoutViewController.swift */; };
+		A2C7C66B1AF9952E003B97F2 /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F42B5A1AB7AFEF00E23553 /* Workout.swift */; };
+		A2C7C66C1AF99530003B97F2 /* HTTPHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20839701AF522B200BD451D /* HTTPHelper.swift */; };
+		A2C7C66D1AF99532003B97F2 /* DataTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29E98741AB91316005535ED /* DataTableView.swift */; };
+		A2C7C66E1AF99535003B97F2 /* TitleOfTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20E12611ABC7F8D00609FBC /* TitleOfTableView.swift */; };
+		A2C7C66F1AF99537003B97F2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20839741AF527FA00BD451D /* Constants.swift */; };
+		A2C7C6731AF99637003B97F2 /* TestAddWorkout.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C7C6721AF99637003B97F2 /* TestAddWorkout.swift */; };
+		A2D3D9671AF99A0600A14330 /* TestHTTPRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D3D9661AF99A0600A14330 /* TestHTTPRequest.swift */; };
+		A2F42B5B1AB7AFEF00E23553 /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F42B5A1AB7AFEF00E23553 /* Workout.swift */; };
+		A2F42B5D1AB7B77C00E23553 /* WorkoutListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F42B5C1AB7B77C00E23553 /* WorkoutListViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A2C7058E1AAFFC0100530C0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2C7056E1AAFFC0000530C0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2C705751AAFFC0000530C0A;
+			remoteInfo = CardioBuddy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A20839701AF522B200BD451D /* HTTPHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPHelper.swift; sourceTree = "<group>"; };
+		A20839741AF527FA00BD451D /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A20E12611ABC7F8D00609FBC /* TitleOfTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleOfTableView.swift; sourceTree = "<group>"; };
+		A2170F181ABC98AE0080CA63 /* WorkoutList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutList.swift; sourceTree = "<group>"; };
+		A2170F1A1ABCF3D60080CA63 /* PastWorkoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PastWorkoutViewController.swift; sourceTree = "<group>"; };
+		A230ED7D1B02E37600A4EE3E /* TestStringCheck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestStringCheck.swift; sourceTree = "<group>"; };
+		A230ED7F1B02E6D100A4EE3E /* TestStringToInt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestStringToInt.swift; sourceTree = "<group>"; };
+		A230ED811B02E87E00A4EE3E /* TestValuesArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestValuesArray.swift; sourceTree = "<group>"; };
+		A255CFC71B02A5FD009382AB /* ParseHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParseHelper.swift; sourceTree = "<group>"; };
+		A255CFCD1B02A73E009382AB /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		A255CFCF1B02A745009382AB /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		A255CFD11B02A749009382AB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A255CFD31B02A74E009382AB /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		A255CFD51B02A756009382AB /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		A255CFD71B02A75C009382AB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A255CFD91B02A762009382AB /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		A255CFDB1B02A769009382AB /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		A255CFDD1B02A771009382AB /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		A255CFDF1B02A777009382AB /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		A255CFE11B02A77F009382AB /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		A255CFE31B02A8B1009382AB /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		A255CFE51B02A8B6009382AB /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		A255CFE91B02A9C5009382AB /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		A255CFEC1B02A9DF009382AB /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		A29E98741AB91316005535ED /* DataTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataTableView.swift; sourceTree = "<group>"; };
+		A2C705761AAFFC0100530C0A /* CardioBuddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardioBuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2C7057A1AAFFC0100530C0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2C7057B1AAFFC0100530C0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A2C7057D1AAFFC0100530C0A /* AveragesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AveragesViewController.swift; sourceTree = "<group>"; };
+		A2C7057F1AAFFC0100530C0A /* NewWorkoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewWorkoutViewController.swift; sourceTree = "<group>"; };
+		A2C705821AAFFC0100530C0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A2C705841AAFFC0100530C0A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A2C705871AAFFC0100530C0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A2C7058D1AAFFC0100530C0A /* CardioBuddyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardioBuddyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2C705921AAFFC0100530C0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2C705931AAFFC0100530C0A /* CardioBuddyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardioBuddyTests.swift; sourceTree = "<group>"; };
+		A2C7C6721AF99637003B97F2 /* TestAddWorkout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestAddWorkout.swift; sourceTree = "<group>"; };
+		A2D3D9661AF99A0600A14330 /* TestHTTPRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestHTTPRequest.swift; sourceTree = "<group>"; };
+		A2F42B5A1AB7AFEF00E23553 /* Workout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
+		A2F42B5C1AB7B77C00E23553 /* WorkoutListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutListViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2C705731AAFFC0000530C0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A255CFE61B02A8B6009382AB /* Social.framework in Frameworks */,
+				A255CFE41B02A8B1009382AB /* Accounts.framework in Frameworks */,
+				A255CFE21B02A77F009382AB /* libsqlite3.dylib in Frameworks */,
+				A255CFE01B02A777009382AB /* libz.dylib in Frameworks */,
+				A255CFED1B02A9DF009382AB /* Parse.framework in Frameworks */,
+				A255CFDE1B02A771009382AB /* SystemConfiguration.framework in Frameworks */,
+				A255CFDC1B02A769009382AB /* StoreKit.framework in Frameworks */,
+				A255CFDA1B02A762009382AB /* Security.framework in Frameworks */,
+				A255CFD81B02A75C009382AB /* QuartzCore.framework in Frameworks */,
+				A255CFD61B02A756009382AB /* MobileCoreServices.framework in Frameworks */,
+				A255CFD41B02A74E009382AB /* CoreLocation.framework in Frameworks */,
+				A255CFD21B02A749009382AB /* CoreGraphics.framework in Frameworks */,
+				A255CFD01B02A745009382AB /* CFNetwork.framework in Frameworks */,
+				A255CFCE1B02A73E009382AB /* AudioToolbox.framework in Frameworks */,
+				A255CFEA1B02A9C5009382AB /* Bolts.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2C7058A1AAFFC0100530C0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A255CFEE1B02A9DF009382AB /* Parse.framework in Frameworks */,
+				A255CFEB1B02A9C5009382AB /* Bolts.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A2C7056D1AAFFC0000530C0A = {
+			isa = PBXGroup;
+			children = (
+				A2C705781AAFFC0100530C0A /* CardioBuddy */,
+				A2C705901AAFFC0100530C0A /* CardioBuddyTests */,
+				A2C705771AAFFC0100530C0A /* Products */,
+				A255CFEC1B02A9DF009382AB /* Parse.framework */,
+				A255CFE91B02A9C5009382AB /* Bolts.framework */,
+				A255CFE51B02A8B6009382AB /* Social.framework */,
+				A255CFE31B02A8B1009382AB /* Accounts.framework */,
+				A255CFE11B02A77F009382AB /* libsqlite3.dylib */,
+				A255CFDF1B02A777009382AB /* libz.dylib */,
+				A255CFDD1B02A771009382AB /* SystemConfiguration.framework */,
+				A255CFDB1B02A769009382AB /* StoreKit.framework */,
+				A255CFD91B02A762009382AB /* Security.framework */,
+				A255CFD71B02A75C009382AB /* QuartzCore.framework */,
+				A255CFD51B02A756009382AB /* MobileCoreServices.framework */,
+				A255CFD31B02A74E009382AB /* CoreLocation.framework */,
+				A255CFD11B02A749009382AB /* CoreGraphics.framework */,
+				A255CFCF1B02A745009382AB /* CFNetwork.framework */,
+				A255CFCD1B02A73E009382AB /* AudioToolbox.framework */,
+			);
+			sourceTree = "<group>";
+		};
+		A2C705771AAFFC0100530C0A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2C705761AAFFC0100530C0A /* CardioBuddy.app */,
+				A2C7058D1AAFFC0100530C0A /* CardioBuddyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2C705781AAFFC0100530C0A /* CardioBuddy */ = {
+			isa = PBXGroup;
+			children = (
+				A2C7057B1AAFFC0100530C0A /* AppDelegate.swift */,
+				A2C7057D1AAFFC0100530C0A /* AveragesViewController.swift */,
+				A2C7057F1AAFFC0100530C0A /* NewWorkoutViewController.swift */,
+				A2F42B5C1AB7B77C00E23553 /* WorkoutListViewController.swift */,
+				A2170F1A1ABCF3D60080CA63 /* PastWorkoutViewController.swift */,
+				A2170F181ABC98AE0080CA63 /* WorkoutList.swift */,
+				A2F42B5A1AB7AFEF00E23553 /* Workout.swift */,
+				A20839701AF522B200BD451D /* HTTPHelper.swift */,
+				A255CFC71B02A5FD009382AB /* ParseHelper.swift */,
+				A29E98741AB91316005535ED /* DataTableView.swift */,
+				A20E12611ABC7F8D00609FBC /* TitleOfTableView.swift */,
+				A20839741AF527FA00BD451D /* Constants.swift */,
+				A2C705811AAFFC0100530C0A /* Main.storyboard */,
+				A2C705841AAFFC0100530C0A /* Images.xcassets */,
+				A2C705861AAFFC0100530C0A /* LaunchScreen.xib */,
+				A2C705791AAFFC0100530C0A /* Supporting Files */,
+			);
+			path = CardioBuddy;
+			sourceTree = "<group>";
+		};
+		A2C705791AAFFC0100530C0A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2C7057A1AAFFC0100530C0A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A2C705901AAFFC0100530C0A /* CardioBuddyTests */ = {
+			isa = PBXGroup;
+			children = (
+				A230ED811B02E87E00A4EE3E /* TestValuesArray.swift */,
+				A230ED7F1B02E6D100A4EE3E /* TestStringToInt.swift */,
+				A2D3D9661AF99A0600A14330 /* TestHTTPRequest.swift */,
+				A2C7C6721AF99637003B97F2 /* TestAddWorkout.swift */,
+				A230ED7D1B02E37600A4EE3E /* TestStringCheck.swift */,
+				A2C705931AAFFC0100530C0A /* CardioBuddyTests.swift */,
+				A2C705911AAFFC0100530C0A /* Supporting Files */,
+			);
+			path = CardioBuddyTests;
+			sourceTree = "<group>";
+		};
+		A2C705911AAFFC0100530C0A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2C705921AAFFC0100530C0A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2C705751AAFFC0000530C0A /* CardioBuddy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2C705971AAFFC0100530C0A /* Build configuration list for PBXNativeTarget "CardioBuddy" */;
+			buildPhases = (
+				A2C705721AAFFC0000530C0A /* Sources */,
+				A2C705731AAFFC0000530C0A /* Frameworks */,
+				A2C705741AAFFC0000530C0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CardioBuddy;
+			productName = CardioBuddy;
+			productReference = A2C705761AAFFC0100530C0A /* CardioBuddy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A2C7058C1AAFFC0100530C0A /* CardioBuddyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2C7059A1AAFFC0100530C0A /* Build configuration list for PBXNativeTarget "CardioBuddyTests" */;
+			buildPhases = (
+				A2C705891AAFFC0100530C0A /* Sources */,
+				A2C7058A1AAFFC0100530C0A /* Frameworks */,
+				A2C7058B1AAFFC0100530C0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2C7058F1AAFFC0100530C0A /* PBXTargetDependency */,
+			);
+			name = CardioBuddyTests;
+			productName = CardioBuddyTests;
+			productReference = A2C7058D1AAFFC0100530C0A /* CardioBuddyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2C7056E1AAFFC0000530C0A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Tim Cronshaw";
+				TargetAttributes = {
+					A2C705751AAFFC0000530C0A = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					A2C7058C1AAFFC0100530C0A = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = A2C705751AAFFC0000530C0A;
+					};
+				};
+			};
+			buildConfigurationList = A2C705711AAFFC0000530C0A /* Build configuration list for PBXProject "CardioBuddy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A2C7056D1AAFFC0000530C0A;
+			productRefGroup = A2C705771AAFFC0100530C0A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2C705751AAFFC0000530C0A /* CardioBuddy */,
+				A2C7058C1AAFFC0100530C0A /* CardioBuddyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2C705741AAFFC0000530C0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2C705831AAFFC0100530C0A /* Main.storyboard in Resources */,
+				A2C705881AAFFC0100530C0A /* LaunchScreen.xib in Resources */,
+				A2C705851AAFFC0100530C0A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2C7058B1AAFFC0100530C0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2C705721AAFFC0000530C0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2C705801AAFFC0100530C0A /* NewWorkoutViewController.swift in Sources */,
+				A20839751AF527FA00BD451D /* Constants.swift in Sources */,
+				A29E98751AB91316005535ED /* DataTableView.swift in Sources */,
+				A2C7057C1AAFFC0100530C0A /* AppDelegate.swift in Sources */,
+				A2170F191ABC98AE0080CA63 /* WorkoutList.swift in Sources */,
+				A2F42B5D1AB7B77C00E23553 /* WorkoutListViewController.swift in Sources */,
+				A20E12621ABC7F8D00609FBC /* TitleOfTableView.swift in Sources */,
+				A2C7057E1AAFFC0100530C0A /* AveragesViewController.swift in Sources */,
+				A20839711AF522B200BD451D /* HTTPHelper.swift in Sources */,
+				A2170F1B1ABCF3D60080CA63 /* PastWorkoutViewController.swift in Sources */,
+				A2F42B5B1AB7AFEF00E23553 /* Workout.swift in Sources */,
+				A255CFC81B02A5FD009382AB /* ParseHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2C705891AAFFC0100530C0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2C705941AAFFC0100530C0A /* CardioBuddyTests.swift in Sources */,
+				A2D3D9671AF99A0600A14330 /* TestHTTPRequest.swift in Sources */,
+				A2C7C6731AF99637003B97F2 /* TestAddWorkout.swift in Sources */,
+				A230ED821B02E87E00A4EE3E /* TestValuesArray.swift in Sources */,
+				A2C7C66F1AF99537003B97F2 /* Constants.swift in Sources */,
+				A230ED7E1B02E37600A4EE3E /* TestStringCheck.swift in Sources */,
+				A230ED801B02E6D100A4EE3E /* TestStringToInt.swift in Sources */,
+				A2C7C66D1AF99532003B97F2 /* DataTableView.swift in Sources */,
+				A2C7C6681AF99527003B97F2 /* NewWorkoutViewController.swift in Sources */,
+				A2C7C66E1AF99535003B97F2 /* TitleOfTableView.swift in Sources */,
+				A2C7C66B1AF9952E003B97F2 /* Workout.swift in Sources */,
+				A2C7C66C1AF99530003B97F2 /* HTTPHelper.swift in Sources */,
+				A2C7C6671AF99525003B97F2 /* AveragesViewController.swift in Sources */,
+				A2C7C6661AF9943B003B97F2 /* WorkoutList.swift in Sources */,
+				A2C7C66A1AF9952B003B97F2 /* PastWorkoutViewController.swift in Sources */,
+				A2C7C6691AF99529003B97F2 /* WorkoutListViewController.swift in Sources */,
+				A255CFEF1B02B1B5009382AB /* ParseHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A2C7058F1AAFFC0100530C0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2C705751AAFFC0000530C0A /* CardioBuddy */;
+			targetProxy = A2C7058E1AAFFC0100530C0A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A2C705811AAFFC0100530C0A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2C705821AAFFC0100530C0A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A2C705861AAFFC0100530C0A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2C705871AAFFC0100530C0A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A2C705951AAFFC0100530C0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A2C705961AAFFC0100530C0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2C705981AAFFC0100530C0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = CardioBuddy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A2C705991AAFFC0100530C0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = CardioBuddy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A2C7059B1AAFFC0100530C0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CardioBuddyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CardioBuddy.app/CardioBuddy";
+			};
+			name = Debug;
+		};
+		A2C7059C1AAFFC0100530C0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = CardioBuddyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CardioBuddy.app/CardioBuddy";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2C705711AAFFC0000530C0A /* Build configuration list for PBXProject "CardioBuddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2C705951AAFFC0100530C0A /* Debug */,
+				A2C705961AAFFC0100530C0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2C705971AAFFC0100530C0A /* Build configuration list for PBXNativeTarget "CardioBuddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2C705981AAFFC0100530C0A /* Debug */,
+				A2C705991AAFFC0100530C0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2C7059A1AAFFC0100530C0A /* Build configuration list for PBXNativeTarget "CardioBuddyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2C7059B1AAFFC0100530C0A /* Debug */,
+				A2C7059C1AAFFC0100530C0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2C7056E1AAFFC0000530C0A /* Project object */;
+}
